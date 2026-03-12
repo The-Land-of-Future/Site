@@ -20,7 +20,7 @@ export default {
       <div id="terminal-container">
         <picture>
           <source media="(max-width: 1000px)" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-          <img src="/tlof.webp" height="1563" width="1563" alt="Terminal" id="terminal" fetchpriority="high" />
+          <img src="/tlof.webp" height="512" width="512" alt="Terminal" id="terminal" fetchpriority="high" />
         </picture>
       </div>
     </div>
