@@ -2,8 +2,8 @@ const questionsAndAnswers = [
     {
         id: 'vrctl',
         question: 'Is there anywhere, where I can see all Clubbing Events happening?',
-        answer: 'Yes, there is. There is a community maintained <a href="https://vrc.tl/">Timeline of all Clubbing Events</a>.',
-        safe: 'Yes, there is. There is a community maintained Timeline of all Clubbing Events (https://vrc.tl/").',
+        answer: 'Yes, there is. There are two community maintained Timelines of all Clubbing Events: <a href="https://vrc.tl/the-land-of-future">Vrc.tl</a> and <a href="https://vrcpop.com/club/grp_60e9ad34-cf21-46a7-9a64-75b744fd4630">Vrcpop.com</a>.<br>Additionally, we also post our events also as <a href="https://vrchat.com/home/group/grp_60e9ad34-cf21-46a7-9a64-75b744fd4630/events">VRChat Events inside our group</a>',
+        safe: 'Yes, there is. There are two community maintained Timelines of all Clubbing Events: Vrc.Tl: https://vrc.tl/the-land-of-future and Vrcpop.com: https://vrcpop.com/club/grp_60e9ad34-cf21-46a7-9a64-75b744fd4630.\nAdditionally, we also post our events also as VRChat Events inside our group: https://vrchat.com/home/group/grp_60e9ad34-cf21-46a7-9a64-75b744fd4630/events',
     },
     {
         id: "what-is-tlof",

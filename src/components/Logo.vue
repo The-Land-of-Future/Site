@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="logo">
-    <img class="logo-img" src="@/assets/tlof.webp" width="512" height="512" alt="TLOF Logo Image">
+    <img class="logo-img" src="/tlof.webp" width="512" height="512" alt="TLOF Logo Image">
     <h2 class="logo-header" aria-label="TLOF Logo Text">TLOF</h2>
   </div>
 </template>

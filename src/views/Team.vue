@@ -72,11 +72,6 @@ export default {
           :socials="['https://github.com/C0D3-M4513R', 'https://ko-fi.com/c0d3_m4513r', 'https://www.twitch.tv/c0d3_m4513r', 'https://www.youtube.com/channel/UC30moJmnYyVmD2RkhRjOxpw']"
       />
       <Member
-          name="Fissy"
-          :image="fissy"
-          :roles="['Photograph']"
-      />
-      <Member
           name="BlackWiddow"
           :image="BlackWiddow"
           :roles="['Livestream Team']"
@@ -104,6 +99,11 @@ export default {
           :roles="['Poster Creator']"
       />
       <template v-if="false">
+        <Member
+            name="Fissy"
+            :image="fissy"
+            :roles="['Photograph']"
+        />
         <Member
             name="Werty"
             :image="Werty"

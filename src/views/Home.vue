@@ -1,6 +1,7 @@
 <script>
 import MainSection from '@/components/home/sections/Main.vue';
-import AboutSection from '@/components/home/sections/About.vue';
+import BioSection from '@/components/home/sections/Bio.vue';
+import HistorySection from '@/components/home/sections/History.vue';
 
 export default {
   head() {
@@ -42,8 +43,8 @@ export default {
   },
   components: {
     MainSection,
-    AboutSection,
-    // StatsSection,
+    BioSection,
+    HistorySection,
   },
 };
 </script>
@@ -51,7 +52,8 @@ export default {
 <template>
   <main>
     <MainSection id="heading" />
-    <AboutSection />
+    <BioSection />
+    <HistorySection />
   </main>
 </template>
 

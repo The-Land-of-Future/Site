@@ -3,7 +3,6 @@ import './assets/main.css'
 import { ViteSSG } from 'vite-ssg'
 import { VueHeadMixin } from '@unhead/vue'
 import App from './App.vue'
-import logo from '@/assets/tlof.webp'
 
 /* import the fontawesome core */
 import { library, config } from '@fortawesome/fontawesome-svg-core'
@@ -142,7 +141,7 @@ export const createApp = ViteSSG(
             tlofYoutubeUrl: "https://www.youtube.com/@thelandoffuture",
             tlofVRChatUrl: "https://vrc.group/TLOF.9942",
             themeColor: '#e1e829',
-            imageUrl: logo,
+            imageUrl: "/tlof.webp",
         };
 /*
         const devHost = true;
