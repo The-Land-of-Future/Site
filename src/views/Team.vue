@@ -83,11 +83,6 @@ export default {
           :socials="['https://www.youtube.com/@touch_me_sama3773']"
       />
       <Member
-          name="Trylobot"
-          :image="Trylobot"
-          :roles="['Special Dancer']"
-      />
-      <Member
           name="Smis"
           :image="Smis"
           :roles="['Special Dancer']"
