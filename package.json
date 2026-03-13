@@ -16,8 +16,8 @@
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.6",
-    "@unhead/vue": "^1.9.3",
-    "unhead": "^1.9.3",
+    "@unhead/vue": "^2.1.12",
+    "unhead": "^2.1.12",
     "vue": "^3.4.21"
   },
   "devDependencies": {
@@ -25,7 +25,7 @@
     "critters": "^0.0.24",
     "vite": "^6.3.6",
     "vite-plugin-pages": "^0.32.1",
-    "vite-ssg": "^25.0.0",
+    "vite-ssg": "^28.3.0",
     "vite-ssg-sitemap": "^0.8.1",
     "vue-router": "^4.3.0"
   }
