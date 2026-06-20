@@ -1,6 +1,6 @@
 import { fileURLToPath, URL } from 'node:url'
 
-import {defineConfig, splitVendorChunkPlugin} from 'vite'
+import {defineConfig, send} from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import generateSitemap from 'vite-ssg-sitemap'
@@ -14,7 +14,6 @@ export default defineConfig({
       extensions: ['vue', 'md'],
     }),
     vue(),
-    splitVendorChunkPlugin(),
   ],
   resolve: {
     alias: {
@@ -30,6 +29,20 @@ export default defineConfig({
           if (id.includes('@fortawesome/free-solid-svg-icons')) return 'fas';
           if (id.includes('@fortawesome/free-regular-svg-icons')) return 'far';
           if (id.includes('@fortawesome/free-brands-svg-icons')) return 'fab';
+
+          let at_index = id.indexOf("@");
+          let new_id = id.substring(at_index);
+          let end_idx = new_id.indexOf("/");
+
+          if (id.includes("@fortawesome"))
+            end_idx = new_id.indexOf("/", end_idx + 1);
+
+          new_id = new_id.substring(0, end_idx)
+
+          if (at_index >= 0) {
+            console.log("id:", id, "new_id:", new_id);
+            return new_id;
+          }
         }
       }
     }
